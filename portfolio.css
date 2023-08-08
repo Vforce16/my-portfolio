@@ -16,13 +16,13 @@
     background: #f1f1f1;
 }
 ::-webkit-scrollbar-thumb {
-    background: #6e93f7;
+    background: #ffb770;
     border-radius: 12px;
     transition: all 0.3s ease;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #4070f4;
+    background: #e35813;
 }
 /* navbar styling */
 nav{
@@ -34,7 +34,7 @@ nav{
   font-family: 'Ubuntu', sans-serif;
 }
 nav.sticky{
-  background: #4070f4;
+  background: #e35813;
   padding: 13px 0;
 }
 nav .navbar{
@@ -47,7 +47,7 @@ nav .navbar{
 nav .navbar .logo a{
   font-weight: 500;
   font-size: 35px;
-  color: #4070f4;
+  color: #e35813;
 }
 nav.sticky .navbar .logo a{
   color: #fff;
@@ -68,7 +68,7 @@ nav .navbar .menu li{
   transition: all 0.4s ease;
 }
 .navbar .menu a:hover{
-  color: #4070f4;
+  color: #e35813;
 }
 nav.sticky .menu a{
   color: #FFF;
@@ -77,7 +77,7 @@ nav.sticky .menu a:hover{
   color: #0E2431;
 }
 .navbar .media-icons a{
-  color: #4070f4;
+  color: #e35813;
   font-size: 18px;
   margin: 0 6px;
 }
@@ -98,7 +98,7 @@ nav .menu-btn,
   display: none;
 }
 nav .menu-btn{
-  color: #4070f4;
+  color: #e35813;
 }
 nav.sticky .menu-btn{
   color: #FFF;
@@ -138,7 +138,7 @@ nav.sticky .menu-btn{
 .home .text-three{
   font-size: 40px;
   margin: 5px 0;
-  color: #4070f4;
+  color: #e35813;
 }
 .home .text-four{
   font-size: 23px;
@@ -154,16 +154,16 @@ nav.sticky .menu-btn{
   border-radius: 6px;
   font-size: 25px;
   font-weight: 400;
-  background: #4070f4;
+  background: #e35813;
   color: #fff;
   cursor: pointer;
   border: 2px solid transparent;
   transition: all 0.4s ease;
 }
 .home .button button:hover{
-  border-color: #4070f4;
+  border-color: #e35813;
   background-color: #fff;
-  color: #4070f4;
+  color: #e35813;
 }
 
 /* About Section Styling */
@@ -200,7 +200,7 @@ section .title span::after{
   position: absolute;
   height: 3px;
   width: 100%;
-  background: #4070f4;
+  background: #e35813;
   left: 0;
   bottom: 0;
 }
@@ -241,21 +241,21 @@ section .button button{
   border-radius: 4px;
   font-size: 25px;
   font-weight: 400;
-  background: #4070f4;
+  background: #e35813;
   color: #fff;
   border: 2px solid transparent;
   cursor: pointer;
   transition: all 0.4s ease;
 }
 section .button button:hover{
-  border-color: #4070f4;
+  border-color: #e35813;
   background-color: #fff;
-  color: #4070f4;
+  color: #e35813;
 }
 
  /* My Skills CSS */
  .skills{
-   background: #F0F8FF;
+   background: #f9f5ef;
  }
  .skills .content{
    padding: 40px 0;
@@ -300,11 +300,11 @@ section .button button:hover{
 }
 .skills-details .boxes .topic{
   font-size: 20px;
-  color: #4070f4;
+  color: #e35813;
 }
 .skills-details .boxes .per{
   font-size: 60px;
-  color: #4070f4;
+  color: #e35813;
 }
 
 /* My Services CSS */
@@ -324,24 +324,24 @@ section .button button:hover{
   transition: all 0.4s ease;
 }
 .services .boxes .box:hover{
-  background: #4070f4;
+  background: #e35813;
   color: #fff;
 }
 .services .boxes .box .icon{
   height: 50px;
   width: 50px;
-  background: #4070f4;
+  background: #e35813;
   border-radius: 50%;
   text-align: center;
   line-height: 50px;
   font-size: 18px;
-  color: #fff;
+  color: #ffffff;
   margin: 0 auto 10px auto;
   transition: all 0.4s ease;
 }
 .boxes .box:hover .icon{
-  background-color: #fff;
-  color: #4070f4;
+  background-color: #ffffff;
+  color: #e35813;
 }
 .services .boxes .box:hover .topic,
 .services .boxes .box:hover p{
@@ -354,13 +354,14 @@ section .button button:hover{
 }
 /* Contact Me CSS */
 .contact{
-  background: #F0F8FF;
+  background: #ffffff;
 }
 .contact .content{
   margin: 0 auto;
   padding: 30px 0;
 }
 .contact .text{
+  color: #0a0a0a;
   width: 80%;
   text-align: center;
   margin: auto;
@@ -368,7 +369,7 @@ section .button button:hover{
 
 /* Footer CSS */
 footer{
-  background: #4070f4;
+  background: #e35813;
   padding: 15px 0;
   text-align: center;
   font-family: 'Poppins', sans-serif;
@@ -391,7 +392,7 @@ footer .text span a:hover{
   bottom: 20px;
   right: 20px;
   color: #fff;
-  background: #4070f4;
+  background: #e35813;
   padding: 7px 12px;;
   font-size: 18px;
   border-radius: 6px;
@@ -458,7 +459,7 @@ footer .text span a:hover{
     margin: 10px 0;
   }
   nav.sticky .menu a:hover{
-    color: #4070f4;
+    color: #e35813;
   }
   nav .navbar .media-icons{
     display: none;
@@ -505,6 +506,6 @@ footer .text span a:hover{
   }
   .skills-details .boxes .per{
     font-size: 50px;
-    color: #4070f4;
+    color: #e35813;
   }
 }
